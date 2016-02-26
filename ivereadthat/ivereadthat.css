@@ -5,6 +5,11 @@
   font-size: 0;
 }
 
+#pagelet_composer .selected[type="submit"] {
+  vertical-align: top;
+  font-size: 0;
+}
+
 .UFILikeLink.UFILikeLink:before,
 .share_action_link .UFIShareLinkSpinner {
   font-size: 13px;
@@ -29,5 +34,11 @@
 
 .share_action_link.share_action_link.share_action_link:after {
   content: '宣旨';
+  font-size: 13px;
+}
+
+#pagelet_composer .selected[type="submit"]:after {
+  content: '昭告天下';
+  vertical-align: middle;
   font-size: 13px;
 }

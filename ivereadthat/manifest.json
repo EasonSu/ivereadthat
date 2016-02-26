@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "朕知道了",
   "description": "modifies your facebook like button",
-  "version": "9.2",
+  "version": "689.2",
 
   "permissions": [
     "https://www.facebook.com/"
@@ -11,12 +11,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
-      "js": ["jquery.min.js"],
-      "run_at": "document_end"
-    },
-    {
-      "matches": ["https://www.facebook.com/*"],
-      "js": ["read.js"],
+      "css": ["ivereadthat.css"],
       "run_at": "document_end"
     }
   ]

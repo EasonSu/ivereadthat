@@ -1,0 +1,33 @@
+.UFILikeLink.UFILikeLink.UFILikeLink,
+.comment_link.comment_link.comment_link,
+.share_action_link.share_action_link.share_action_link,
+.like + * > ._4sm1 {
+  font-size: 0;
+}
+
+.UFILikeLink.UFILikeLink:before,
+.share_action_link .UFIShareLinkSpinner {
+  font-size: 13px;
+}
+
+.UFILikeLink.UFILikeLink.UFILikeLink:after,
+.like + * > ._4sm1:after {
+  content: '朕知道了';
+  display: inline;
+  position: static;
+  font-size: 13px;
+}
+
+.UFILikeLink.UFILikeLink.UFILinkBright:after {
+  content: '朕也是看報紙才知道';
+}
+
+.comment_link.comment_link.comment_link:after {
+  content: '卿家可知？';
+  font-size: 13px;
+}
+
+.share_action_link.share_action_link.share_action_link:after {
+  content: '宣旨';
+  font-size: 13px;
+}

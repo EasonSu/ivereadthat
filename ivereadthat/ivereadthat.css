@@ -23,7 +23,8 @@
   font-size: 13px;
 }
 
-.UFILikeLink.UFILikeLink.UFILinkBright:after {
+.UFILikeLink.UFILikeLink.UFILinkBright:after,
+.UFILikeLink.UFILikeLink[data-ft="{\"tn\":\"?\"}"]:after {
   content: '朕也是看報紙才知道';
 }
 
